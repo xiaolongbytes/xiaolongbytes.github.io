@@ -6,14 +6,11 @@ Website URL: https://xiaolongbytes.github.io/
 Personal/portfolio website for myself.
 
 ## Skills Learned:
-1. Figma to prototype website design and content
-2. CSS text animations
-3. CSS Grid
-
-
+1. UI Design
+2. Figma to prototype website design and content
 
 ## TO-DO:
 - [ ] Finalize prototype design in Figma 
-- [ ] Create page using HTML and CSS  
-- [ ] Add text animations  
+- [ ] Create page using HTML and CSS
+- [ ] Ensure it looks good on different window sizes
 - [ ] Make mobile friendly  
