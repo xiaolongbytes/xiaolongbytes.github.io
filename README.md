@@ -25,6 +25,7 @@ Personal/portfolio website for myself.
     - [ ] Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)
     - [ ] Flex grow/shrink on navbar rather than set width
 - [ ] Ensure it looks good on different window sizes
-    - [ ] How to keep left and right margins when window is less than max body width?
+    - [X] How to keep left and right margins when window is less than max body width?
+        - Used padding instead of margin to define distance from edge of window
 - [ ] Make mobile friendly
     - [ ] Change nav bar into hamburger menu on small screens
