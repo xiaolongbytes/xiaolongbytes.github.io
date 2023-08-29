@@ -14,12 +14,15 @@ Personal/portfolio website for myself.
 - [unDraw Illustrations](https://undraw.co/illustrations) for illustrations that match my color palette
 - [Google Fonts](https://fonts.google.com/specimen/Monoton?query=monoton) to find fonts such as Monoton and Railway used in my design
 - [Font Awesome](https://fontawesome.com/) for icons
+- [Normalize.css](https://necolas.github.io/normalize.css/) to normalize website behavior on all browsers.
 
 ## TO-DO:
 - [ ] Finalize prototype design in Figma 
 - [ ] Create page using HTML and CSS
-    - [ ] Implement normalize.css
-    - [ ] Research ul vs nav element (a11y)
+    - [X] Implement normalize.css
+    - [X] Research ul vs nav element (a11y)
+        - Wrap my ul with nav
+        - https://stackoverflow.com/a/69513936
     - [ ] webp vs jpeg
     - [ ] Figure out how to add icon to button
     - [ ] Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)
