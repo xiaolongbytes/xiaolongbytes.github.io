@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hi, I'm April</title>
 </head>
 <body>
@@ -17,25 +18,78 @@
                     <li>Home</li>
                     <li>About Me</li>
                     <li>Projects</li>
+                    <!-- <li>Courses</li> -->
                     <li>Connect</li>
-                    <li><button class="download-resume">Résumé</button></li>
+                    <li><button class="download-resume">Résumé<i class="fa fa-download" aria-hidden="true"></i></button></li>
             </ul>
         </nav>
     </header>
+
     <div class="home">
-        <img src="./assets/IMG_1103.jpeg" alt="April sitting on rocks in front of a blue sky, looking over the horizon.">
-        <div class="hi">
+        <img src="./assets/April Wang photo.jpeg" alt="April sitting on rocks in front of a blue sky, looking over the horizon.">
+        <div class="card-text">
             <h1>Hi, I'm <span class="text-primary-color">April</span>!</h1>
-            Computer Science student based in Columbus, Ohio <br> 
-            <br>
-            Ex-Structural Engineer,<br>
-            Your future intern. <br>
-            <br>
-            Let's build solutions, together. <br>
-            <br>
+            <p>
+                Computer Science Student<br>
+                Expected Graduation Date of June 2025 <br>
+                <br>
+                Former structural engineer, your future intern<br>
+                Looking for opportunities in Columbus OH,  Bellevue WA, or remote. <br>
+                <br>
+                Let's build solutions together. <br>
+            </p>
             <button class="Connect">Get in Touch</button>
         </div>
     </div>
+
+    <div class="about-me">
+        <div class="card-text">
+            <h1>About Me</h1>
+            <p>
+                I started studying Computer Science at Oregon State University on September 2023. <br>
+                My expected graduation date is June 2025. <br>
+                <br>
+                I've spent the last year learning Python, HTML/CSS, JavaScript, Git, Visual Studio Code, Figma, algorithmic complexity, data structures, and Test Driven Design from CS50 and The Odin Project. <br>
+                <br>
+                In my previous structural engineering career I conducted research, engineered solutions to complex problems, built relationships with clients, coordinated multidisciplinary teams, championed and enforced QA/QC best practices, created documentation, mentored interns and early career engineers, and delegated tasks for engineering teams to deliver engineering designs on compressed project schedules. <br>
+                <br>
+                I am based in Columbus, Ohio. <br>
+            </p>
+        </div>
+        <img src="./assets/undraw_articles_wbpb.svg" alt="Woman reading paper">
+    </div>
+
+    <h1>Projects</h1>
+    <div class="projects">
+        <div class="project-card">
+            <img src="./assets/Personal Website Preview.png" alt="Personal website preview">
+            <h2 class="text-primary-color">Personal Website</h2>
+            <div class="tags">
+                <div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">Figma</div><div class="tag">UI Design</div>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="./assets/RPN Calculator Preview.png" alt="Calculator Website preview">
+            <h2 class="text-primary-color">RPN Calculator</h2>
+            <div class="tags">
+            <div class="tag">HTML</div><div class="tag">CSS</div><div class="tag">JavaScript</div>
+            </div>
+        </div> 
+    </div>
     
+    <h1>Connect</h1>
+    <div class="connects">
+        <div class="connect-card">
+            <i class="fa fa-linkedin-square fa-5"></i>
+            <h2>Connect with me on Linkedin</h2>
+        </div>
+        <div class="connect-card">
+            <i class="fa fa-github-square fa-5"></i>
+            <h2>Check out my GitHub</h2>
+        </div>
+    </div>
+    
+    
+
 </body>
 </html>

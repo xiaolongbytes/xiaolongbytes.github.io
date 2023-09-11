@@ -13,7 +13,7 @@ Personal/portfolio website for myself.
 - [Realtime Colors](https://realtimecolors.com/?colors=040201-FBEEEA-853619-f2c9ba-bc4d24) to choose color palette and to check contrast for readability and color accessibility
 - [unDraw Illustrations](https://undraw.co/illustrations) for illustrations that match my color palette
 - [Google Fonts](https://fonts.google.com/specimen/Monoton?query=monoton) to find fonts such as Monoton and Railway used in my design
-- [Font Awesome](https://fontawesome.com/) for icons
+- [Font Awesome v4.7](https://fontawesome.com/v4/icons/) for icons
 - [Normalize.css](https://necolas.github.io/normalize.css/) to normalize website behavior on all browsers.
 
 ## TO-DO:
@@ -24,9 +24,11 @@ Personal/portfolio website for myself.
         - Wrap my ul with nav
         - https://stackoverflow.com/a/69513936
     - [ ] webp vs jpeg
-    - [ ] Figure out how to add icon to button
-    - [ ] Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)
+    - [X] Figure out how to add icon to button
+    - [X] ~~Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)~~ It's fine
+    - [ ] Make nav bar functional with links
     - [ ] Flex grow/shrink on navbar rather than set width
+    - [ ] Add degree progress/courses?
 - [ ] Ensure it looks good on different window sizes
     - [X] How to keep left and right margins when window is less than max body width?
         - Used padding instead of margin to define distance from edge of window
