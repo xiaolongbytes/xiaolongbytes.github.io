@@ -17,7 +17,8 @@ Personal/portfolio website for myself.
 - [Normalize.css](https://necolas.github.io/normalize.css/) to normalize website behavior on all browsers.
 
 ## TO-DO:
-- [ ] Finalize prototype design in Figma 
+- [ ] Finalize prototype design in Figma
+- [ ] Set up gitignore 
 - [ ] Create page using HTML and CSS
     - [X] Implement normalize.css
     - [X] Research ul vs nav element (a11y)
@@ -29,8 +30,10 @@ Personal/portfolio website for myself.
     - [ ] Make nav bar functional with links
     - [ ] Flex grow/shrink on navbar rather than set width
     - [ ] Add degree progress/courses?
+- [ ] Custom URL/github url
 - [ ] Ensure it looks good on different window sizes
     - [X] How to keep left and right margins when window is less than max body width?
         - Used padding instead of margin to define distance from edge of window
 - [ ] Make mobile friendly
     - [ ] Change nav bar into hamburger menu on small screens
+- [ ] Add click tracking
