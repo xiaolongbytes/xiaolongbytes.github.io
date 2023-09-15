@@ -44,10 +44,9 @@ Always. Makes CSS and box model easier.
     - [ ] ~~Flex grow/shrink on navbar rather than set width~~
     - [ ] Add degree progress/courses?
 - [ ] Custom URL/github url
-- [ ] Ensure it looks good on different window sizes
+- [X] Ensure it looks good on different window sizes
     - [X] How to keep left and right margins when window is less than max body width?
-        - Used padding instead of margin to define distance from edge of window
-- [ ] Make mobile friendly
+- [X] Make mobile friendly
     - ~~[ ] Change nav bar into hamburger menu on small screens~~
     - shrink text?
     - ensure images and buttons are displayed correctly
