@@ -408,6 +408,7 @@ h2 {
     font-weight: 500;
     padding: 10px 24px;
     border:none;
+    text-align: center;
 }
 
 .button:hover {
