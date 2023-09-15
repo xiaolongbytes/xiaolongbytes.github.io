@@ -8,6 +8,7 @@ Personal/portfolio website for myself.
 ## Skills Learned
 1. UI Design
 2. Figma to prototype website design and content
+3. Making website behave correctly on different window sizes/mobile
 
 ## Tools Used
 - [Realtime Colors](https://realtimecolors.com/?colors=040201-FBEEEA-853619-f2c9ba-bc4d24) to choose color palette and to check contrast for readability and color accessibility
@@ -16,7 +17,15 @@ Personal/portfolio website for myself.
 - [Font Awesome v4.7](https://fontawesome.com/v4/icons/) for icons
 - [Normalize.css](https://necolas.github.io/normalize.css/) to normalize website behavior on all browsers.
 
-## TO-DO:
+## Lessons Learned
+- Buttons are for in-page actions, anchors are for navigation. Anchors can be styled to look/act like buttons.
+- CSS:  ``` * {
+    box-sizing: border-box;
+}```
+Always. Makes CSS and box model easier.
+- Friends will laugh at you if you don't have a gitignore and commit node modules
+
+## TO-DO
 - [ ] Finalize prototype design in Figma
 - [ ] Set up gitignore 
 - [ ] Create page using HTML and CSS
@@ -27,13 +36,20 @@ Personal/portfolio website for myself.
     - [ ] webp vs jpeg
     - [X] Figure out how to add icon to button
     - [X] ~~Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)~~ It's fine
-    - [ ] Make nav bar functional with links
-    - [ ] Flex grow/shrink on navbar rather than set width
+    - [ ] ~~Make nav bar functional with links~~
+        - Anchor tags scrolled page such that nav bar obscured content.
+        - Behavior for sections at the bottom of the page was also poor (would not scroll so section was at top of screen)
+        - Page is so short that nav bar had minimal benefit.
+        - Removed for MVP.
+    - [ ] ~~Flex grow/shrink on navbar rather than set width~~
     - [ ] Add degree progress/courses?
 - [ ] Custom URL/github url
 - [ ] Ensure it looks good on different window sizes
     - [X] How to keep left and right margins when window is less than max body width?
         - Used padding instead of margin to define distance from edge of window
 - [ ] Make mobile friendly
-    - [ ] Change nav bar into hamburger menu on small screens
+    - ~~[ ] Change nav bar into hamburger menu on small screens~~
+    - shrink text?
+    - ensure images and buttons are displayed correctly
 - [ ] Add click tracking
+
