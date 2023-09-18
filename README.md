@@ -33,7 +33,7 @@ Always. Makes CSS and box model easier.
     - [X] Research ul vs nav element (a11y)
         - Wrap my ul with nav
         - https://stackoverflow.com/a/69513936
-    - [ ] webp vs jpeg
+    - [X] webp vs jpeg
     - [X] Figure out how to add icon to button
     - [X] ~~Figure out alignment of text in Home section (not aligned with right edge of resume button, is that ok?)~~ It's fine
     - [ ] ~~Make nav bar functional with links~~
