@@ -8,7 +8,7 @@ Personal/portfolio website for myself.
 ## Skills Learned
 1. UI Design
 2. Figma to prototype website design and content
-3. Making website behave correctly on different window sizes/mobile
+3. Making website behave correctly on different window sizes/mobile (responsive design)
 
 ## Tools Used
 - [Realtime Colors](https://realtimecolors.com/?colors=040201-FBEEEA-853619-f2c9ba-bc4d24) to choose color palette and to check contrast for readability and color accessibility
