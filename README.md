@@ -27,7 +27,7 @@ Always. Makes CSS and box model easier.
 - Friends will laugh at you if you don't have a gitignore and commit node modules
 
 ## TO-DO
-- [ ] Finalize prototype design in Figma
+- [X] ~~Finalize prototype design in Figma~~
 - [ ] Set up gitignore 
 - [ ] Create page using HTML and CSS
     - [X] Implement normalize.css
@@ -51,5 +51,6 @@ Always. Makes CSS and box model easier.
     - ~~[ ] Change nav bar into hamburger menu on small screens~~
     - shrink text?
     - ensure images and buttons are displayed correctly
+- [ ] Add collapsible "about" for projects to add blurb about my role in the project
 - [ ] Add click tracking
 
